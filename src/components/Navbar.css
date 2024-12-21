@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap");
+
+.logo {
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.v19 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: gray;
+  text-decoration: none;
+}
+
+.v19:hover {
+  text-decoration: underline;
+  color: #087ea4;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 700px;
+  color: #9ca4b5;
+}
+
+.search-field {
+  background-color: #ebecf0;
+  text-indent: 35px;
+  cursor: pointer;
+}
+
+.search-field::placeholder {
+  color: #9ca4b5;
+  font-weight: 500;
+}
+
+.search-icon {
+  position: absolute;
+  left: 18px; /* Position the icon on the left */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #9ca4b5;
+}
+
+.shortcut-badge {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-53%);
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.ctrl,
+.K {
+  background: #ffffff;
+  color: #9ca4b5;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  padding: 2px 0;
+  margin-top: 2px;
+}
+
+.nav-menu {
+  margin-left: 30px;
+}
+
+.nav-icons {
+  font-size: 25px;
+  border-radius: 50%;
+  /* transition: background-color 0.3s ease; */
+  /* padding: 5px; */
+}
+
+.nav-icons:hover {
+  background-color: #f4f4f4;
+  /* border-radius: 50%; */
+  /* padding: 2px; */
+}
+
+/* .links{
+    padding: 0 20px;
+    transition: background-color 0.3s ease;
+} */
+
+.links:hover {
+  background-color: #f4f4f4;
+}
