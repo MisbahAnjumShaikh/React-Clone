@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: "Optimist";
+    src: url(../assets/fonts/Optimist\ Normal/);
+}
+
+.sixthCards{
+    /* width: 23vw; */
+    /* height: 30vw; */
+    background-color: cadetblue;
+    /* background-image: linear-gradient(to right top, #ffffff, #fbfbfc, #f7f6f8, #f2f2f5, #eeeef2); */
+}
+
+.sixthCardsHeading{
+    font-family: "Optimist";
+}
+
+.sixthCardsPara{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #565C6A;
+}

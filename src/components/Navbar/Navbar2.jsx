@@ -1,5 +1,5 @@
 // import React from 'react'
-import logo from "../assets/images/logo.png";
+import logo from "../assets/logo.png";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdOutlineTranslate } from "react-icons/md";
 import { IoLogoGithub } from "react-icons/io";
